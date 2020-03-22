@@ -1,3 +1,10 @@
+While I've been working as a full-time software developer since August 2019, I'm currently spending some extra time outside of work going through FreeCodeCamp's front-end libraries curriculum.
+
+I'm doing this for a few reasons. The first is to better mentor incoming interns at my company that are tasked with building these FreeCodeCamp projects their first couple weeks at the company.
+
+The second reason is that I'd like to claim FreeCodeCamp's front-end libraries certificate before moving on to their API and microservices certification.
+_______
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

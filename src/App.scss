@@ -1,0 +1,12 @@
+.app {
+  .main-content-container {
+  border: 3px solid green;
+  min-height: 250px;
+  height: 80vh;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+}

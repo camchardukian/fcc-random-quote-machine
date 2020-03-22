@@ -1,0 +1,12 @@
+.quote-box-container {
+  border: 2px solid purple;
+  background-color: #ccc;
+  padding: 0 16px;
+  min-height: 250px;
+  .more-quotes-btn {
+    border: 1px solid green;
+  }
+  .quote-author {
+    text-align: right;
+  }
+}
