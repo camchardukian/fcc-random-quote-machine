@@ -1,12 +1,30 @@
 .quote-box-container {
   border: 2px solid purple;
   background-color: #ccc;
-  padding: 0 16px;
-  min-height: 250px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: calc(100% - 32px);
+  min-width: 250px;
+  margin: 16px 16px 8px 16px;
+  .quote-text {
+    margin-bottom: 4px;
+    overflow-wrap: break-word;
+  }
   .more-quotes-btn {
     border: 1px solid green;
+    background-color: pink;
   }
   .quote-author {
     text-align: right;
+  }
+  .buttons-flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
   }
 }
