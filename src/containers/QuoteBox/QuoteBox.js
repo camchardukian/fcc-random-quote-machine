@@ -1,14 +1,22 @@
 import React from 'react';
 import SocialBtn from '../../components/SocialBtn';
 import './index.scss'
+import Button from '@material-ui/core/Button';
+
 const QuoteBox = () => {
+  const myQuote="You miss 100% of the shots you don't take."
+  const myAuthor="Wayne Gretsky"
   return (
     <div className="quote-box-container">
-      <h2 className="quote-text">You miss 100% of the shots you don't take.</h2>
-      <div className="quote-author">Wayne Gretsky</div>
+      <h2 className="quote-text">"{myQuote}"</h2>
+      <div className="quote-author">- {myAuthor}</div>
+      <div className="buttons-flex-container">
+      <div>
+      <SocialBtn iconChoice='GitHub' />
       <SocialBtn />
-      <SocialBtn />
-      <button type="button" className="more-quotes-btn">Click for more quotes</button>
+      </div>
+      <Button className="more-quotes-btn">Click for more quotes</Button>
+      </div>
     </div>
   )
 }
