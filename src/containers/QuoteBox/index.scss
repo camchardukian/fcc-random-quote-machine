@@ -1,4 +1,4 @@
-.quote-box-container {
+#quote-box {
   border: 2px solid purple;
   background-color: #ccc;
   padding-left: 16px;
@@ -11,15 +11,15 @@
   max-width: calc(100% - 32px);
   min-width: 250px;
   margin: 16px 16px 8px 16px;
-  .quote-text {
+  #text {
     margin-bottom: 4px;
     overflow-wrap: break-word;
   }
-  .more-quotes-btn {
+  #new-quote {
     border: 1px solid green;
     background-color: pink;
   }
-  .quote-author {
+  #author {
     text-align: right;
   }
   .buttons-flex-container {
