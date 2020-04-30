@@ -1,13 +1,15 @@
 import React from 'react';
 import './index.css'
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import TwitterIcon from '@material-ui/icons/Twitter';
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
 const SocialBtn = (props) => {
   return (
-    <button type="button">{props.iconChoice === 'GitHub' ? (<div><Link to="github.com"><GitHubIcon /></Link></div>) : <div><Link to="linkedin.com"><LinkedInIcon /></Link></div>}</button>
+    <button type="button">{props.iconChoice === 'GitHub' ?
+      (<div><Link to="github.com/camchardukian"><GitHubIcon /></Link></div>)
+      : <div><Link to="twitter.com"><TwitterIcon /></Link></div>}</button>
   )
 }
 

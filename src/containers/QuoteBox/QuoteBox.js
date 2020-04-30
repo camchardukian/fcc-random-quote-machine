@@ -4,18 +4,19 @@ import './index.scss'
 import Button from '@material-ui/core/Button';
 
 const QuoteBox = () => {
-  const myQuote="You miss 100% of the shots you don't take."
-  const myAuthor="Wayne Gretsky"
+  const myQuote = "You miss 100% of the shots you don't take."
+  const myAuthor = "Wayne Gretsky"
   return (
-    <div className="quote-box-container">
-      <h2 className="quote-text">"{myQuote}"</h2>
-      <div className="quote-author">- {myAuthor}</div>
+    <div id="quote-box">
+      <h2 id="text">"{myQuote}"</h2>
+      <div id="author">- {myAuthor}</div>
       <div className="buttons-flex-container">
-      <div>
-      <SocialBtn iconChoice='GitHub' />
-      <SocialBtn />
-      </div>
-      <Button className="more-quotes-btn">Click for more quotes</Button>
+        <div>
+          <SocialBtn iconChoice='GitHub' />
+          <a href="twitter.com" id="tweet-quote" target="_blank"><SocialBtn /></a>
+
+        </div>
+        <Button id="new-quote">Click for more quotes</Button>
       </div>
     </div>
   )
