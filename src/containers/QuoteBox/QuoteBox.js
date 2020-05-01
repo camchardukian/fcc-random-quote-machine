@@ -11,10 +11,9 @@ const QuoteBox = () => {
       <h2 id="text">"{myQuote}"</h2>
       <div id="author">- {myAuthor}</div>
       <div className="buttons-flex-container">
-        <div>
+        <div className="icon-container">
           <SocialBtn iconChoice='GitHub' />
-          <a href="twitter.com" id="tweet-quote" target="_blank"><SocialBtn /></a>
-
+          <a href={`https://twitter.com/intent/tweet?`} id="tweet-quote" target="_blank"> <SocialBtn /></a>
         </div>
         <Button id="new-quote">Click for more quotes</Button>
       </div>
