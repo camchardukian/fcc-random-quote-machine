@@ -33,5 +33,7 @@
   .icon-container {
     border: 1px solid black;
     height: fit-content;
+    min-width: fit-content;
+    margin: auto 0px;
   }
 }

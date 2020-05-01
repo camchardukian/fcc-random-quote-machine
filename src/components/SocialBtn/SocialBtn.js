@@ -13,7 +13,7 @@ const SocialBtn = (props) => {
 }
 
 SocialBtn.propTypes = {
-  iconChoice: PropTypes.string.isRequired
+  iconChoice: PropTypes.string
 }
 
 
