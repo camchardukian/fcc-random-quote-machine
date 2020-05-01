@@ -19,6 +19,9 @@
     border: 1px solid green;
     background-color: pink;
   }
+  #tweet-quote {
+    text-decoration: none;
+  }
   #author {
     text-align: right;
   }
@@ -26,5 +29,9 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
+  }
+  .icon-container {
+    border: 1px solid black;
+    height: fit-content;
   }
 }
